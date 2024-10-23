@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles/infoBox.css";
+import "../../src/styles/infoBox.css";
+
 import {
   BsCartCheck,
   BsClockHistory,

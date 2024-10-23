@@ -1,7 +1,8 @@
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import "../styles/footerLinks.css";
+import "../../src/styles/footerLinks.css";
+
 import { useNavigate } from "react-router-dom";
 const FooterLinks = () => {
   const navigate = useNavigate();

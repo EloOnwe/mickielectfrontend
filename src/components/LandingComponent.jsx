@@ -7,7 +7,8 @@ import CarouselItem from "./CarouselItem";
 import FooterLinks from "./FooterLinks";
 import { useSelector } from "react-redux";
 
-import "../styles/LandingComponent.css";
+import "../../src/styles/landingComponent.css";
+
 import Loader from "./Loader";
 import { useEffect, useState } from "react";
 

@@ -10,8 +10,8 @@ import { CgProfile } from "react-icons/cg";
 import { LiaTimesSolid } from "react-icons/lia";
 import { BiMenuAltLeft } from "react-icons/bi";
 import { TiTimes } from "react-icons/ti";
+import "../../src/styles/header.css";
 import { IoHomeOutline, IoSpeedometer } from "react-icons/io5";
-import "../styles/header.css";
 import {
   MdLocalLaundryService,
   MdOutlineElectricalServices,

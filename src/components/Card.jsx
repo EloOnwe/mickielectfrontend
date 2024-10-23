@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
+import "../../src/styles/card.css";
 
-import "../styles/card.css";
 import { useNavigate } from "react-router-dom";
 import { addToCart } from "../redux/features/cartSlice";
 

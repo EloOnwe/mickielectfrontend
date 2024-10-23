@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import "../styles/cart.css";
+import "../../src/styles/cart.css";
+
 import { FaArrowLeft } from "react-icons/fa";
 import { TbCurrencyNaira } from "react-icons/tb";
 import { Link, useNavigate } from "react-router-dom";

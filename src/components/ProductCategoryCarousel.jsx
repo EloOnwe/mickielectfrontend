@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles/productCategoryCarousel.css";
+import "../../src/styles/productCategoryCarousel.css";
+
 import { useNavigate } from "react-router-dom";
 
 import cable from "../assets/cable.jpg";

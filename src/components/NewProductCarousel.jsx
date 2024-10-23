@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import "../styles/newProductCarousel.css";
+import "../../src/styles/newProductCarousel.css";
+
 import {
   FaRegArrowAltCircleLeft,
   FaRegArrowAltCircleRight,

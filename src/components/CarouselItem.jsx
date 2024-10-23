@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import "../styles/carouselItem.css";
+import "../../src/styles/carouselItem.css";
 
 import bulb from "../assets/bulbNew.jpg";
 import microwave from "../assets/microwave2.jpg";
