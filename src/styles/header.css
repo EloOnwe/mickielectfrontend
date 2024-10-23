@@ -1,0 +1,405 @@
+@media screen and (min-width: 900px) {
+   
+
+    header{
+      background-color: var(--background);
+      height: 8vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+       padding-left: 0.7rem;
+      padding-right: 0.7rem;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1111;
+    }
+
+    header .infos{
+      display: flex;
+      align-items: center;
+    }
+
+    
+
+    .headerImg {
+      border-radius: 50%;
+      width: 2rem;
+      overflow: hidden;
+      margin-left: 1rem;
+    }
+
+    header .downArrow{
+      position: relative;
+    }
+
+    .aside-links{
+      display: none;
+    }
+  
+    .logo{
+      border: 1px solid transparent;
+       padding: 1px 4px;
+       height: 60%;
+       transition: all 0.3s ease-in-out;
+       border-radius: 1rem;
+       font-style: italic;
+     }
+
+  
+  
+    .logo:hover{
+      border-color: white;
+      color: aqua;
+    }
+
+    .aside-menu{
+      display: none;
+    }
+  
+    .searchBar{
+       width: 40%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+     }
+  
+    .searchBar input{
+      width: 90%;
+      height: 100%;
+      border-radius: 4px 0 0 4px;
+      padding-left: 1rem;
+      border: none;
+    }
+  
+    .searchBar input:focus{
+      outline: none;
+      font-size: 1.05rem;
+    }
+  
+    .search-icon-container{
+      background-color: deepskyblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      margin-left: -1px;
+      border-radius: 0 4px 4px 0;
+      color: white;
+    }
+  
+    nav{
+       width: 30%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+     }
+  
+    nav p{
+       margin: auto 0;
+    }
+
+ 
+
+    .infos{
+      display: flex;
+     }
+
+    .infos .greets{
+      display: flex;
+      align-items: center;
+       margin-right: 1rem;
+      gap: 5px;
+      }
+
+       
+
+    .profile-icon .my-info{
+      background-color: var(--background);
+      display: none;
+      flex-direction: column;
+      padding: 1rem;
+      position: absolute;
+      right: 0;
+      top: 2rem;
+      border-radius: 0 0 0.5rem 0.5rem;
+
+    }
+
+    .infos .profile-icon:hover .my-info{
+       display: flex;
+       right: 0;
+     }
+
+  
+     
+    
+  
+    main{
+       min-height: 84vh;
+     }
+    
+    footer{
+       height: 8vh;
+       background-color: var(--background);
+    }
+  
+  
+    .cart{
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+    }
+  
+    .cart p{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1rem;
+      height: 1rem;
+      top: -0.3rem;
+      left: 0.6rem;
+      font-weight: 800;
+      font-size: 1.1rem;
+      background-color: red;
+      border-radius: 50%;
+     }
+  
+     .ham{
+      display: none;
+      }
+  }
+  
+   
+   @media screen and (max-width: 900px) {
+    header{
+      background-color: var(--background);
+      height: 8vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+       padding-left: 0.7rem;
+      padding-right: 0.7rem;
+      color: white;
+      position: sticky;
+      z-index: 1111;
+    }
+
+    .aside-links{
+      display: none;
+    }
+  
+    .logo{
+      border: 1px solid transparent;
+       padding: 4px 8px;
+       height: 70%;
+       transition: all 0.3s ease-in-out;
+       border-radius: 1rem;
+       font-style: italic;
+     }
+     .logo:hover{
+      border-color: white;
+    }
+
+    .aside-menu{
+      display: none;
+    }
+     
+   
+    .searchBar{
+       width: 50%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+    }
+  
+    .searchBar input{
+      width: 90%;
+      height: 100%;
+      border-radius: 4px 0 0 4px;
+      border: none;
+      padding-left: 1rem;
+    }
+  
+    .searchBar input:focus{
+      outline: none;
+      font-size: 1.05rem;
+    }
+  
+  
+    .search-icon-container{
+      background-color: deepskyblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      margin-left: -1px;
+      border-radius: 0 4px 4px 0;
+      color: white;
+    }
+  
+    nav{
+      display: none;
+      
+    }
+
+    nav .my-info{
+       display: flex;
+      flex-direction: column;
+     }
+   
+    .navlinks{
+        display: flex;
+        position: absolute;
+        animation: show-menu 0.7s ease forwards;
+         top: 8vh;
+        width: 50%;
+        background-color: var(--background);
+        height: 40vh;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+    @keyframes show-menu {
+        0% {
+            transform: translateX(200rem);
+           }
+        100%{
+            transform: translateX(100%);
+        }
+    }
+    
+
+    .navlinks a{
+      font-size: 1.4rem;
+      margin: 0.6rem 0;
+    }
+
+
+     
+  
+    .cart{
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+    }
+  
+    .cart p{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1rem;
+      height: 1rem;
+      top: -0.3rem;
+      left: 0.6rem;
+      font-weight: 800;
+      font-size: 1.1rem;
+      background-color: red;
+      border-radius: 50%;
+     }
+  
+     main{
+      min-height: 84vh;
+    }
+   
+   .footer{
+      height: 8vh;
+      background-color: var(--background);
+   }
+   .menu-right{
+    cursor: pointer;
+   }
+
+  
+   }
+  
+  
+   @media screen and (max-width: 600px) {
+    header{
+      position: sticky;
+      top: 0;
+      z-index: 1111;
+      
+    }
+
+    .aside-menu{
+      display: block;
+      font-size: 2.2rem;
+     }
+
+    .aside-links{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      position: absolute;
+      top: 8vh;
+      left: 10%;
+      background-color: var(--background);
+      padding: 1rem;
+      border-radius: 5px;
+      animation: aside-show  0.4s ease forwards;
+      z-index: 4;
+     }
+
+     header .brands{
+      display: flex;
+      flex-direction: column;
+      }
+
+
+    @keyframes aside-show {
+      0%{
+        transform: translateY(-20rem);
+      }
+      100%{
+        transform: translateY(0);
+      }
+    }
+
+    .aside-links h2{
+      text-align: center;
+      color: red;
+    }
+
+    .aside-links .icon{
+      margin-left: 1rem;
+      color: black;
+    }
+
+    .aside-links a{
+      padding-left: 1rem;
+     }
+     .searchBar {
+      position: absolute;
+       top: 8.2vh;
+       background-color: var(--background);
+      width: 100%;
+      margin-left: -0.5rem;
+      box-shadow: 1px 1px 5px black;
+       }
+       
+       .aside-categories{
+        display: flex;
+       }
+
+
+
+     .profile-icon img{
+       width: 70px;
+     }
+
+     .line{
+      border: 1px solid white;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      }
+   
+   }

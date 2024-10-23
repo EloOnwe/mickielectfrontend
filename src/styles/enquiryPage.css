@@ -1,0 +1,84 @@
+.enquiryContainer{
+    padding: 4rem 3rem;
+ }
+
+ .enquiryContainer h3{
+    text-align: center;
+    color: var(--background);
+ }
+
+ .enquiryContainer h4{
+    color: var(--background);
+ }
+
+ .box{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+ }
+
+ .enquiryForm{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    }
+
+  .enquiryForm form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .enquiryForm form input{
+    height: 2.6rem;
+    outline: none;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 0.7px black;
+    margin-bottom: 5px;
+    padding-left: 0.5rem;
+  }
+  .enquiryForm form textarea{
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 0.7px black;
+    height: 5rem;
+    padding: 1rem;
+  }
+
+  .enquiryForm form button{
+    width: 40%;
+    height: 2.3rem;
+    margin: 6px auto;
+    background-color: var(--background);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+  }
+
+ .otherEnquiry{
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    background-color: rgb(252, 252, 238);
+    border-radius: 1rem; 
+    box-shadow: 0 0 1px black;
+    padding: 0 2rem;
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+   .box{
+     flex-direction: column;
+    }
+    .box form{
+       width: 100%;
+    }
+    .enquiryContainer{
+      padding-top: 4.4rem;
+    }
+ }

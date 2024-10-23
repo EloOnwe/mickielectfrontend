@@ -1,0 +1,43 @@
+.form-container{
+     min-height: 84vh;
+     display: flex;
+     padding: 1rem;
+
+}
+.form-container form{
+     width: 40%;
+}
+.form-container form input{
+    display: flex;
+    flex-direction: column;
+    height: 2.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+}
+
+.form-container .imagePreview{
+     height: 50vh;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1px black;
+}
+
+.imagePreview img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.backArrow{
+     font-size: 2.4rem;
+    position: absolute;
+    cursor: pointer;
+     right: 0;
+    z-index: 11;
+     
+}

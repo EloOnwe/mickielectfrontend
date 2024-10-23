@@ -1,0 +1,41 @@
+.admin-page{
+    display: grid;
+    grid-template-columns: 20% 80%;
+     min-height: 84vh;
+    
+}
+
+aside {
+   z-index: 12;
+   }
+
+  aside nav{
+     display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  aside ul{
+    list-style: none;
+    padding: 5px;
+   }
+
+  aside ul li{
+     background-color: rgba(0, 0, 0, 0.1);
+     margin-bottom: 5px;
+     padding: 2px 5px;
+     border-radius: 4px;
+  }
+
+  aside a{
+    color: black;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+
+  aside a:hover{
+    color: var(--background);
+  }

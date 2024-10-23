@@ -1,0 +1,36 @@
+.products-container{
+     min-height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+ }
+
+.products-container table{
+    width: 90%;
+    border-collapse: collapse;
+
+ }
+
+.products-container table a{
+    color: black;
+}
+
+ 
+
+.products-container table thead{
+     background-color: rgba(0, 0, 0,  0.1);
+     font-size: 1.3rem;
+}
+
+.products-container table tbody{
+     font-size: 1.2rem;
+   }
+
+   .arrowBack{
+     position: absolute;
+     left: 15rem;
+     top: 8vh;
+     cursor: pointer;
+     font-size: 2rem;
+     }

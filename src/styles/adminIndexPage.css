@@ -1,0 +1,36 @@
+ .adminIndex{
+     position: relative;
+    width: 100%;
+    min-height: 84vh;
+ }
+
+ .adminIndex img{
+    height: 84vh;
+    width: 100%;
+ }
+
+
+
+ .adminIndex h1{
+    position: absolute;
+    top: 10rem;
+    font-size: 3rem;
+    color: yellow;
+    font-weight: 800;
+    background-color: white;
+    border-radius: 5px;
+    animation: index 5s infinite ease-in-out alternate-reverse;
+   }
+
+
+
+  @keyframes index {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(200%);
+    }
+    
+  }

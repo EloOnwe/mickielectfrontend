@@ -1,0 +1,146 @@
+.cart-container{
+    width: 100%;
+    min-height: 84vh;
+ }
+
+ .cart-container .item-container{
+      display: flex;
+     justify-content: space-between;
+      padding: 1rem;
+      border-bottom: 1px solid black;
+ }
+
+ .image-container .image{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .image-container .image img{
+    width: 100px;
+  }
+
+  .image-container .remove-btn button{
+    width: 60%;
+    margin-top: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+  }
+
+.cart-container a{
+  color: black;
+}
+
+.cart-container a:hover{
+    color: black;
+}
+
+.quantity-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-container h4{
+  padding: 0.2rem;
+
+}
+
+
+.quantity-container button{
+    background-color: lightgrey;
+ }
+ .quantity-container button:hover{
+    background-color: lightgrey;
+ }
+
+ .cart-container .summary{
+   display: flex;
+  justify-content: space-between;
+ }
+
+ .summary .summary-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding-right: 1rem;
+ }
+
+ .summary-right .grandTotal span{
+   font-weight: 900;
+
+ }
+
+ .summary-right .grandTotal {
+   font-size: 1.3rem;
+
+ }
+
+ .summary-right .checkout{
+  width: 14rem;
+  height: 2.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--background);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+  }
+ 
+ #clear{
+  width: 10rem;
+  height: 2rem;
+  border-radius: 6px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  margin-top: 3px;
+  font-weight: 900;
+ }
+
+ .cart-container .empty-cart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   height: 84vh;
+   padding-top: 2rem;
+   font-size: 2rem;
+ }
+
+  
+ 
+
+
+
+
+@media screen and (max-width: 600px) {
+    .cart-container{
+        margin-top: 7vh;
+         
+    }
+
+    .cart-container .summary{
+       flex-direction: column;
+      align-items: center;
+      margin: 1rem 0;
+    }
+
+
+    .summary .grandTotal{
+       width: 100vw;
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    .cart-container .item-container{
+       flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    .summary-right .checkout{
+      margin-right: 1rem;
+     }
+ }

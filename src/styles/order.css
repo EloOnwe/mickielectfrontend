@@ -1,0 +1,69 @@
+.ordersContainer{
+     min-height: 84vh;
+ }
+
+ .ordersContainer h2{
+    text-align: center;
+    margin-top: 1rem;
+ }
+
+ .orderContainer .product{
+      display: flex;
+     justify-content: space-between;
+     align-items: center;
+     box-shadow: 0 0 0.799px black;
+     padding: 1rem 2rem;
+     flex-wrap: wrap;
+ }
+
+ .noOrder{
+     text-align: center;
+     padding-top: 4rem;
+     font-size: 1.5rem;
+ }
+
+ .loading{
+      min-height: 84vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ 
+
+.productDetail{
+     display: flex;
+     flex-direction: column;
+     line-height: 17px;
+     justify-content: center;
+     align-items: center;
+}
+
+.address{
+      line-height: 2px;
+}
+
+@media screen and (max-width: 900px) {
+     .orderContainer .product{
+          flex-direction: column;
+          font-size: 1.3rem;
+       }
+}
+
+
+
+@media screen and (max-width: 600px) {
+     
+
+     .product .productDetail{
+           width: 100%;
+          height: 7rem;
+          line-height: 2rem;
+      }
+
+      .address{
+           height: 7rem;
+          line-height: 1rem;
+       }
+}
+

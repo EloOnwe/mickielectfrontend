@@ -1,0 +1,21 @@
+.aboutPageContainer{
+    padding: 1rem 3rem;
+}
+
+.aboutPageContainer h3{
+    text-align: center;
+    color: var(--background);
+ }
+
+.aboutPageContainer h5{
+   text-align: center;
+   color: var(--background);
+ }
+
+
+ @media screen and (max-width: 600px) {
+    .aboutPageContainer h3{
+        padding-top: 4rem;
+    }
+ }
+

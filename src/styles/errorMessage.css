@@ -1,0 +1,12 @@
+.errorMessageBox{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: indianred;
+     width: 30%;
+    height: 3rem;
+}
+
+ 

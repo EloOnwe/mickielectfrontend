@@ -1,0 +1,118 @@
+.profileContainer{
+    min-height: 84vh;
+    display: flex;
+ }
+
+.profileContainer .profileInfo{
+     width: 100%;
+     display: flex;
+     padding: 1rem;
+}
+
+.profilePic{
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  box-shadow: 0px 0px 4px black;
+ }
+
+.formData{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formData form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.formData form input{
+    height: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    padding-left: 1rem;
+ }
+
+.formData button{
+    border: none;
+    background-color: lightgray;
+    height: 3rem;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.profileImage{
+    width: 100%;
+    height: 100%;
+    
+ 
+}
+
+.profileImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    image-rendering: auto;
+}
+
+ 
+
+.profilePic form  button{
+     width: 100%;
+    border: none;
+    background-color: lightgrey;
+    height: 2.4rem;
+    border-radius: 4px;
+    margin-top: 4px;
+ }
+
+ 
+
+  
+
+ @media screen and (max-width: 900px) {
+    .profileInfo{
+        flex-direction: column;
+    }
+
+    .profilePic{
+        margin-top: 3rem;
+         width: 100%;
+        box-shadow: none;
+
+    }
+
+    .profileImage{
+        display: flex;
+        justify-content: center;
+    }
+
+    .profilePic .profileImage img{
+         width: 100%;
+         height: auto;
+    }
+
+    
+
+    .profilePic form input{
+        width: 100%;
+      }
+
+    .formData{
+        margin-top: 5rem;
+    }
+
+    .formData form{
+         width: 100%;
+
+    }
+    
+ }

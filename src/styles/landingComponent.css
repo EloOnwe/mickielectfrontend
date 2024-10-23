@@ -1,0 +1,27 @@
+.landingPage .carousel{
+     height: 30rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.landingPage .loading{
+     min-height: 84vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.errorMessage{
+      min-height: 84vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.4rem;
+ }
+
+ .err{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }

@@ -1,0 +1,15 @@
+.faqsContainer{
+    padding: 1rem 3rem;
+ }
+
+ .faqsContainer h3{
+    text-align: center;
+    color: var(--background);
+ }
+
+
+ @media screen and (max-width: 600px) {
+   .faqsContainer{
+      padding-top: 4.4rem;
+   }
+ }
