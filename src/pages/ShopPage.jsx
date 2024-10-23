@@ -1,4 +1,5 @@
-import "../styles/ShopPage.css";
+import "../../src/styles/shopPage.css";
+
 import { useDispatch, useSelector } from "react-redux";
 import { Link, NavLink } from "react-router-dom";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
