@@ -5,11 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
 
-  build: {
-    rollupOptions: {
-      // other options
-    },
-  },
   server: {
     historyApiFallback: true, // This ensures all routes fall back to index.html
   },
