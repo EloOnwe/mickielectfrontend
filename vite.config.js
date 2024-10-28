@@ -5,7 +5,10 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
 
+  base: "/",
   server: {
-    historyApiFallback: true, // This ensures all routes fall back to index.html
+    proxy: {
+      "/api": "http://localhost:5000", // Or the port your backend runs on locally
+    },
   },
 });
