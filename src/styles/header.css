@@ -261,9 +261,10 @@
          top: 8vh;
         width: 50%;
         background-color: var(--background);
-        height: 40vh;
+        height: 47vh;
         flex-direction: column;
         padding-left: 2rem;
+ 
     }
 
     @keyframes show-menu {
