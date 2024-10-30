@@ -277,6 +277,7 @@
       height: 52vh;
       flex-direction: column;
       padding-left: 2rem;
+      display: none;
 
     }
 
