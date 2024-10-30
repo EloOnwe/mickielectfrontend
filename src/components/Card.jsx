@@ -11,6 +11,7 @@ const Card = ({ product }) => {
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
   };
+
   return (
     <div className="card-container">
       <img

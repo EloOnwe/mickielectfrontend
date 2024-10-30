@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import "../../src/styles/cart.css";
 
 import { FaArrowLeft } from "react-icons/fa";
-import { TbCurrencyNaira } from "react-icons/tb";
+import { LuDollarSign } from "react-icons/lu";
 import { Link, useNavigate } from "react-router-dom";
 import {
   clearCart,
@@ -88,14 +88,15 @@ const Cart = () => {
 
             <div className="total">
               <span>Unit price: </span>
+              <span></span>
               <span>
-                <TbCurrencyNaira />
+                <LuDollarSign />
+                {item.price}
               </span>
-              <span>{item.price}</span>
             </div>
             <div className="total">
               <span>Total: </span>
-              <TbCurrencyNaira />
+              <LuDollarSign />
               <span>{item.price * item.productQty}</span>
             </div>
           </div>
@@ -119,7 +120,7 @@ const Cart = () => {
             <div className="grandTotal-container">
               <p className="grandTotal">
                 <span>Grand Total: </span>
-                <TbCurrencyNaira /> {grandTotal}
+                <LuDollarSign /> {grandTotal}
               </p>
             </div>
             <button

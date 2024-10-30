@@ -195,7 +195,7 @@ const ShopPage = ({ handleFilterChange, productData }) => {
             ) : (
               <div className="products-container">
                 {productData?.map((product) => (
-                  <Card key={product._id} product={product} />
+                  <Card key={product._id} product={product} className="card" />
                 ))}
               </div>
             )}
