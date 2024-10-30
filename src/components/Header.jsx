@@ -203,7 +203,7 @@ const Header = ({ handleInputChange, handleFilterChange }) => {
       </div>
 
       {/* Main navigation menu */}
-      <nav className={showMenu ? "navlinks" : ""}>
+      <nav className={showMenu ? "navlinks" : "hide"}>
         <NavLink to="/shop" onClick={toggleMenu}>
           Shop
         </NavLink>
